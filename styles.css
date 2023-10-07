@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(138, 131, 131);
+    width: 434px;
+    height: auto;
+    font-family: 'Young Serif', serif;
+   
+}
+.sidebar nav{
+    padding: 60px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+   background-color: rgb(194, 184, 184);
+    width: 79vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer{
+   /* background-color: rgb(15, 224, 60); */
+    height: 56vh;
+    width: 60vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Signika Negative', sans-serif;}
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.moreAbout{
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.buttons{
+    margin-top: 35px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(219, 219, 228);
+    background-color: blue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+}
+.btn-primary{
+    margin-left: 300px;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+.devPic img{
+    width: 250px;
+    height: 65vh;
+}
+
+
+/*------------------------CONTACT FORM------------------------*/
+
+.contactForm {
+    font-family: 'Signika Negative', sans-serif;
+   /* text-align: center;    */
+}
+
+.contactForm h1{
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    padding-top: 30px;
+    padding-left: 300px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input {
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: blue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+/* ---------------------------BLOG-------------------*/
+
+.blogcontainer{
+    padding-top: 40px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.blogcontainer h1{
+    text-align: center;
+}
+.blogItem{
+    padding-top: 20px;
+}
+.blogItem h2{
+    padding-left: 10px;  
+}
+.blogItem p{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.btn-sm{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 6px;
+    font-size: 15px;
+}
+
+/* ------------------------------------------MY INTRO-----------------------------------------------*/
+
+.devInfo h1{
+    padding: 10px;
+}
+.devInfo p{
+    padding: 3px;
+}
+
+
+/*----------------------------------------SERVICES-------------------------------------------------*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 100px;
+    margin-left: 180px;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border-radius: 50px;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+    background-color: aqua;
+    color: blue;
+  }
+
+/*---------------------------------ALL-------------------------
+@media (max-width: 12450px){
+    *{
+        background-color: rgb(226, 215, 215);
+    }
+    .sidebar{
+        transform: translate(-443px , 0px);
+        position: absolute;
+    }
+}   */
